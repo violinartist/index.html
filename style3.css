@@ -12,7 +12,7 @@ body {
     text-align: left;
     list-style-position: inside;
     margin: 30px;
-    margin-top: 20px;
+    margin-top: 16px;
   }
 body {
       color: white;
@@ -23,7 +23,7 @@ body {
     }
 .demo {
   position:absolute;
-  top:19.5vh;
+  top:18.5vh;
   right:1vw;
   width:20vw;
   min-width:600px;
