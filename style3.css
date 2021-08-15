@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 #container {
   display:flex;
@@ -16,7 +16,7 @@ body {
   }
 body {
       color: white;
-      font-family: 'Montserrat';
+      font-family: 'Poppins';
     }
 body {
       background-color:black;
