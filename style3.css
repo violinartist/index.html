@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
 
 #container {
   display:flex;
@@ -22,7 +22,7 @@ body {
       background-color:black;
     }
 .demo {
-  position:absolute;
+  position: absolute;
   top:18.5vh;
   right:1vw;
   width:20vw;
@@ -95,8 +95,65 @@ nav {
    text-decoration: none;
    top: 50%;
   left: 50%;
- 
  }
  li a:hover {
   background-color: #d6bbb5;
-} 
+}
+#album{
+  margin:10vh auto 0;
+  padding:2.4vw 2vw;
+  color:#284098;
+  font-size: 2em;
+  background:url(../images/innercontentimage.png);
+	border-left:2px solid #a2482b;
+	border-bottom:2px solid #a2482b;
+	border-top:2px solid #e69e67;
+	border-right:2px solid #e69e67;
+  overflow: hidden;
+ transform: rotate(-2deg);
+ width:60%;
+ min-width:500px;
+}
+#album img{
+  width:40%;
+  max-width:400px;
+  float:left;
+  margin:5vh 1vw 5vh 0;
+}
+#album a{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px 2px;
+  cursor: pointer;
+}
+#album a:hover{
+  border:2px solid #fff;
+}
+.hellowords {
+  font-weight: normal;
+  margin:0;
+  padding:0;
+}
+.hellowords {
+  color: white;
+  transform: rotate(-2deg);
+  margin:2.5vh 0;
+}
+@media (max-width : 945px) {
+  #album, #innercontent{
+    width:90%;
+  }
+}
+@media (max-width : 720px) {
+  #video{
+    min-width:360px;
+  }
+}
