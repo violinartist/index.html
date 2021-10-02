@@ -1,54 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body {
-    background-image: url('images/A4.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-color: black;
+  background-image: url('images/A4.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: left;
+  list-style-position: inside;
+  margin: 50px;
+  margin-top: 90px;
+}
+body {
     color: white;
     font-family: 'Poppins';
-    background-color: black;
-    margin: 30px;
-    margin-top: 16px;
   }
-header {
-    text-align:center;
+
+  #topnav{
+    background:#1c1c1a;
+    padding:1vw;
+    width:98vw;
+    position:fixed;
+    top:-10vh;
+    left:0;
+    z-index:100;
   }
-nav ul {
-    list-style-type: none;
-    margin: 5px;
-    margin-left: 10px;
-    padding:5px;
-    font-size: 1.2em;
-    overflow: hidden;
-    background-color: #1d0d09;
-    background-size:100;
-    text-align: center;
+  #topnav{
+    top:0;
   }
-  nav {
-    text-align:center;
+  #topnav a{
+    color:#e8ddc0;
+    text-decoration:none;
+    padding:0 1.5vw;
+  }
+  #topnav a:hover, #topnav .active{
+    color:#fff;
+    font-size:1.2em;
+  }	
+  #topnav a:nth-child(odd) {
+    padding-top:1.5vh;
+  }
+  a {
+    text-decoration: none;
+    transition: 0.2s ease-out;
+  }
+  @media screen and (max-width: 1000px) {
+    #topnav a, #topnav a:hover, #topnav .active {
+      font-size:0.8em;
     }
-   
-   li {
-     float: right;
-     margin-left:  50px;
-  
-     top: 50%;
-     left: 50%;
-   }
-   
-   
-   li a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     margin-right: 50px;
-     margin-left: 20px;
-     text-decoration: none;
-     top: 50%;
-    left: 50%;
-   
-   }
-   li a:hover {
-    background-color: #d6bbb5;
-  } 
+  }
