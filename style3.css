@@ -95,7 +95,6 @@ body {
   min-width:600px;
   z-index: 0;
   cursor: pointer;
-  /** transform: rotate(2deg); **/
 }
 .logo {
   margin-left: auto;
