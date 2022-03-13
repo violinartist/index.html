@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body {
-  background-color: black;
-  background-image: url('images/A4.png');
+  background-image: url('images/A10.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   text-align: left;
   list-style-position: inside;
-  margin: 50px;
-  margin-top: 90px;
+  margin: 65px;
+  margin-top: 30x;
 }
 body {
     color: white;
