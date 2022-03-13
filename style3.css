@@ -38,10 +38,40 @@ a {
     font-size:0.8em;
   }
 }
+.morevideosbutton {
+ position: absolute;
+  top:56vh;
+  right:7.5vw;
+  width:20vw;
+  min-width:410px;
+  z-index: 0;
+  cursor: pointer; 
+}
+.morevideosbutton {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+.morevideosbutton:hover {
+background-color: #4CAF50;
+color: white; 
+}
+
+
+
 
 
 body {
-    background-image: url('images/A4.png');
+    background-image: url('images/A10.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -65,33 +95,37 @@ body {
   min-width:600px;
   z-index: 0;
   cursor: pointer;
-  transform: rotate(2deg);
+  /** transform: rotate(2deg); **/
 }
 .logo {
   margin-left: auto;
 }
 h2 {
-  text-align: center;
+  text-align: left;
 }
 .center {
   display: block;
-  margin-left: auto;
+
   margin-right: auto;
   width: 30%;
 }
 .button {
-  background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 16px 32px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 7px 2px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
   cursor: pointer;
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+.button:hover {
+background-color: #4CAF50;
+color: white; 
 }
 .demo {
   color: rgb(8, 173, 202);
@@ -133,10 +167,10 @@ h2 {
     color: white; 
     border: 2px solid #4CAF50;
   }
-#album a:hover{
+/* #album a:hover{
   background-color: #4CAF50;
-  color: white;
-}
+  color: white; 
+} */
 .hellowords {
   font-weight: normal;
   margin:0;
@@ -221,10 +255,37 @@ footer {
     min-width:20px;
     z-index: 0;
     cursor: pointer;
-    transform: rotate(2deg);
   }
   .demo{
     margin-top:30vh;
+  }
+  .morevideosbutton {
+    position:relative;
+    top:0;
+    right:0;
+    width:83vw;
+    min-width:10px;
+    z-index: 0;
+    cursor: pointer;
+   }
+  .morevideosbutton {
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30vh;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white; 
+    border: 2px solid #4CAF50;
+  }
+  .morevideosbutton:hover {
+  background-color: #4CAF50;
+  color: white; 
   }
   #album{
     margin:0vh auto 0;
@@ -251,3 +312,4 @@ footer {
     margin-top:0vh;
   }
 }
+
